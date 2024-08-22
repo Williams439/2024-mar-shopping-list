@@ -19,6 +19,7 @@ export default function ShoppingForm({ addItem }) {
         setQuantity(event.target.value);
     }
 
+
     return (
         <form action="#" method="POST" onSubmit={handleSubmit}>
             <label htmlFor="item">Item</label>
