@@ -36,7 +36,7 @@ export default function App() {
   };
 
   const deleteItem = (id) => {
-    fetch(`${API_ROOT}/api/${id}`, {
+    fetch(`${API_ROOT}/api/list/${id}`, {
       method: "DELETE",
       headers: {
         'Content-type': 'application/json; charset=utf-8'
