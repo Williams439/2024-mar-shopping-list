@@ -1,4 +1,16 @@
 .App {
   text-align: center;
+  margin: 1rem;
+  max-width: 90%;
+  min-width: 400px;
+  
 }
+
+.App-header {
+  text-align: center;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
 

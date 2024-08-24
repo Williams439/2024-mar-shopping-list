@@ -1,18 +1,5 @@
 import React from 'react';
-
-function ShoppingItem({id, itemName, quantity, deleteItem}) {
-    function handleDelete(event) {
-        event.preventDefault();
-        deleteItem(id);
-    }
-
-    return (
-        <li>
-            {itemName} ({quantity}) 
-            <button onClick={handleDelete}>Delete</button>
-        </li> 
-    );
-}
+import ShoppingItem from './ShoppingItem';
 
 export default function ShoppingList({ items, deleteItem }) {
     

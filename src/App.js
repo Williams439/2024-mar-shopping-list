@@ -36,6 +36,7 @@ export default function App() {
   };
 
   const deleteItem = (id) => {
+    console.log(`${API_ROOT}/api/list/${id}`);
     fetch(`${API_ROOT}/api/list/${id}`, {
       method: "DELETE",
       headers: {
@@ -47,6 +48,9 @@ export default function App() {
       .then(loadData);
 };
 
+// TODO
+const editItem = () => {};
+
     return (
         <div className="App">
           <header className="App-header">
@@ -54,7 +58,7 @@ export default function App() {
           </header>
 
           <main>
-              <ShoppingForm addItem={addItem} />
+              <ShoppingForm submitItem={addItem} />
               <ShoppingList items={shoppingList} deleteItem={deleteItem} />
           </main>
         </div>
