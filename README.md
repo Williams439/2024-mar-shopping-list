@@ -1,4 +1,4 @@
-# Shopping Lister
+# Shopping List
 
 Hosting Link: https://williams439.github.io/2024-mar-shopping-list/
 
