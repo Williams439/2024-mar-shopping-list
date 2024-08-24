@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ShoppingForm from '../ShoppingForm/ShoppingForm';
 
-export default function ShoppingItem({id, itemName, quantity, deleteItem}) {
+export default function ShoppingItem({id, itemName, quantity, deleteItem, updateItem}) {
     
     const [isEdit, setEdit] = useState(false);
     
@@ -16,7 +16,7 @@ export default function ShoppingItem({id, itemName, quantity, deleteItem}) {
     }
 
     function handleUpdate(itemName, quantity) {
-        console.log(itemName, quantity);
+        updateItem(id, itemName, quantity);
         setEdit(false);
     }
     
