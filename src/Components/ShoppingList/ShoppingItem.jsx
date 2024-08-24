@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ShoppingForm from '../ShoppingForm/ShoppingForm';
+import './ShoppingItem.css';
 
 export default function ShoppingItem({id, itemName, quantity, deleteItem, updateItem}) {
     
@@ -30,7 +31,7 @@ export default function ShoppingItem({id, itemName, quantity, deleteItem, update
     );
 
     return (
-        <li>
+        <li className="shopping-item-li">
             { isEdit ? Editjsx : ReadOnlyjsx }
             <button onClick={handleDelete} disabled={isEdit}>Delete</button>
             <button onClick={handleEdit}>{ isEdit ? 'Cancel' : 'Edit' }</button>
