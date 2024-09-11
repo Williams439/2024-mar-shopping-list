@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/2024-mar-shopping-list/static/css/main.5a975df2.css",
+    "main.js": "/2024-mar-shopping-list/static/js/main.bc4ae490.js",
+    "index.html": "/2024-mar-shopping-list/index.html",
+    "main.5a975df2.css.map": "/2024-mar-shopping-list/static/css/main.5a975df2.css.map",
+    "main.bc4ae490.js.map": "/2024-mar-shopping-list/static/js/main.bc4ae490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a975df2.css",
+    "static/js/main.bc4ae490.js"
+  ]
+}
